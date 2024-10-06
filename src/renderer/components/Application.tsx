@@ -7,9 +7,7 @@ const Application: React.FC = () => {
   const [darkTheme, setDarkTheme] = useState(true);
   const [versions, setVersions] = useState<Record<string, string>>({});
 
-  /**
-   * On component mount
-   */
+  /*On component mount*/
   useEffect(() => {
     const useDarkTheme = parseInt(localStorage.getItem('dark-mode'));
     if (isNaN(useDarkTheme)) {
