@@ -33,3 +33,6 @@ window.addEventListener('DOMContentLoaded', () => {
   // Set versions to app data
   app.setAttribute('data-versions', JSON.stringify(versions));
 });
+
+// Say something
+console.log('[ERWT] : Preload execution ended');
