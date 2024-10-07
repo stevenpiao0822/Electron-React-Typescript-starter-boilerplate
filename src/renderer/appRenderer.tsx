@@ -15,3 +15,6 @@ const app = (
 
 // Render application in DOM
 createRoot(document.getElementById('app')).render(app);
+
+// Say something
+console.log('[ERWT] : Renderer execution ended');
