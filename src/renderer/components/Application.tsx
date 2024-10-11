@@ -27,6 +27,7 @@ const Application: React.FC = () => {
   /**
    * On Dark theme change
    */
+  
   useEffect(() => {
     if (darkTheme) {
       localStorage.setItem('dark-mode', '1');
