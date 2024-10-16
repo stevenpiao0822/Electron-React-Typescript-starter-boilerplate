@@ -15,4 +15,3 @@ const app = (
 
 // Render application in DOM
 createRoot(document.getElementById('app')).render(app);
-
