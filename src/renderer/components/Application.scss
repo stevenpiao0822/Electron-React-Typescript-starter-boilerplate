@@ -79,10 +79,12 @@ button {
   &:hover {
     background: var(--button-hover-bgcolor);
   }
+
   &:active {
     background: var(--button-active-bgcolor);
   }
-  & > span {
+
+  &>span {
     color: var(--button-badge-color);
     background-color: var(--button-badge-bgcolor);
     font-size: 12px;
@@ -193,7 +195,7 @@ button {
   box-sizing: border-box;
   border-radius: 4px;
 
-  & > * {
+  &>* {
     display: flex;
   }
 
@@ -204,7 +206,7 @@ button {
     opacity: 0.8;
   }
 
-  & > span {
+  &>span {
     color: gray;
     text-align: right;
   }
@@ -223,6 +225,7 @@ button {
     max-width: 700px;
     margin: 0 auto;
   }
+
   .footer {
     padding: 2rem;
     background: var(--app-footer-bgColor);
@@ -244,6 +247,7 @@ button {
 
   &-icon {
     min-height: 33px;
+
     img {
       border-radius: 50%;
     }
